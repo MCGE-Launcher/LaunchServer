@@ -1,5 +1,6 @@
 <template>
-  <main>
+  <main class="flex w-full">
+    <Navigation />
     <RouterView />
     <div>
       [Default Layout]

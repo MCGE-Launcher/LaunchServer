@@ -5,3 +5,7 @@
 !.env.example
 storage/framework
 node_modules
+
+frontend/src/auto-imports.d.ts
+frontend/src/typed-router.d.ts
+frontend/src/components.d.ts

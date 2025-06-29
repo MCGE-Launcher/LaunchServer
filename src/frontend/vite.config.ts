@@ -5,6 +5,8 @@ import { VueRouterAutoImports } from 'unplugin-vue-router'
 import VueRouter from 'unplugin-vue-router/vite'
 import Layouts from 'vite-plugin-vue-layouts'
 import AutoImport from 'unplugin-auto-import/vite'
+import VitePluginRestart from "vite-plugin-restart";
+import Components from 'unplugin-vue-components/vite';
 
 export default defineConfig({
   plugins: [
@@ -39,7 +41,19 @@ export default defineConfig({
       vueTemplate: true,
     }),
 
+    Components({
+      dirs: ['src/components'],
+      extensions: ['vue'],
+      deep: true,
+      dts: 'src/components.d.ts',
+    }),
+
     vue(),
+
+    VitePluginRestart({
+      reload: ['src/layouts/**/*'],
+    }),
+
     UnoCSS(),
   ],
   server: {

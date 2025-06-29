@@ -15,8 +15,12 @@
     ]
   },
   "include": [
-    "**/*",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
     "vite.config.ts",
-    "./typed-router.d.ts"
+    "./src/typed-router.d.ts",
+    "./src/auto-imports.d.ts"
   ]
 }
