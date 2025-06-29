@@ -1,0 +1,23 @@
+{
+  "name": "mcge-launchserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0",
+    "vue": "3",
+    "vue-tsc": "^2.2.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.7"
+  }
+}
