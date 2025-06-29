@@ -1,5 +1,5 @@
 <template>
-  <h1>MCGE LaunchServer</h1>
+  <RouterView />
 </template>
 
 <script setup lang="ts"></script>

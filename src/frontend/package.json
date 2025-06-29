@@ -12,12 +12,21 @@
   "private": true,
   "dependencies": {
     "@vitejs/plugin-vue": "^6.0.0",
+    "@vueuse/core": "^13.4.0",
+    "pinia": "^3.0.3",
     "typescript": "^5.8.3",
     "vite": "^7.0.0",
     "vue": "3",
+    "vue-i18n": "^11.1.7",
+    "vue-router": "^4.5.1",
     "vue-tsc": "^2.2.10"
   },
   "devDependencies": {
-    "@types/node": "^24.0.7"
+    "@types/node": "^24.0.7",
+    "eslint": "^9.30.0",
+    "unocss": "^66.3.2",
+    "unplugin-auto-import": "^19.3.0",
+    "unplugin-vue-router": "^0.13.0",
+    "vite-plugin-vue-layouts": "^0.11.0"
   }
 }

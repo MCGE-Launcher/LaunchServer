@@ -8,7 +8,15 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": ["ESNext", "DOM"]
+    "lib": ["ESNext", "DOM"],
+    "types": [
+      "unplugin-vue-router/client",
+      "vite-plugin-vue-layouts/client"
+    ]
   },
-  "include": ["resources/**/*", "vite.config.ts"]
+  "include": [
+    "**/*",
+    "vite.config.ts",
+    "./typed-router.d.ts"
+  ]
 }
